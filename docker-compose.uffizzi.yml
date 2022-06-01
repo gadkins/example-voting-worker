@@ -35,7 +35,7 @@ services:
 
   vote:
     build:
-      context: https://github.com/gadkins/example-voting-vote  # defaults to "Default branch" as set in GitHub (usually main/master)
+      context: https://github.com/UffizziCloud/example-voting-vote  # defaults to "Default branch" as set in GitHub (usually main/master)
       dockerfile: Dockerfile
     deploy:
       resources:
